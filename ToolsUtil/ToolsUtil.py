@@ -152,7 +152,6 @@ def include_string(string1, string2):
 if __name__ == '__main__':
     # print(get_utc_stamp())
     # print(get_local_stamp())
-    # print(salt_md5('mo911111'))
     # print(generator_random_email())
     print(generator_random_telephone())
     # print(random_four_number())
