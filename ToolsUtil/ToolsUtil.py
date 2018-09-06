@@ -95,11 +95,11 @@ def generator_random_telephone():
     """
     tele_first_list = '134,135,136,137,138,139,150,151,152,157,158,159,130,131,132,155,156,133,153'.split(',')
     tele_first = str(tele_first_list[random.randint(0, len(tele_first_list) - 1)])
-    tele_second = random_four_number() + random_four_number()
+    tele_second = __random_four_number() + __random_four_number()
     return tele_first + tele_second
 
 
-def random_four_number():
+def __random_four_number():
     """随机生成4位数字字符串
 
     :return:
